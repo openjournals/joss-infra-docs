@@ -72,7 +72,7 @@ flowchart TD
   PR(fa:fa-code-merge deposit-pull-request-action)
   UPDATE(fa:fa-file-edit update-files-action)
    
-  PapersRepo[JOSS Papers repository at GitHub]
+  PapersRepo[fa:fa-github JOSS Papers repository]
 
   UPLOAD --> |New branch with metadata/image files| PapersRepo
   PR --> |Opens a pull request| PapersRepo
