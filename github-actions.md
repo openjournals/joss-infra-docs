@@ -1,5 +1,25 @@
 # GitHub Actions
 
+There is a collection of small GitHub actions used as steps by JOSS in the different workflows running at GitHub.
+
+The actions are:
+
+* **publishing-artifacts-action** 
+* **paper-action**
+* **preprint-action**  
+* **upload-files-action** 
+* **deposit-pull-request-action** 
+* **update-files-action** 
+* **validate-xml-files-action** 
+* **deposit-with-crossref-action** 
+* **deposit-with-openjournals-action** 
+* **citation-file-action** 
+* **acceptance-tweet-action** 
+
+
+
+
+
 ```mermaid
 flowchart TD
   PAPER(paper-action)
