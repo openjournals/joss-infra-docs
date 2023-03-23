@@ -1,8 +1,6 @@
 # GitHub Actions
 
-There is a collection of small GitHub actions available to be used as steps in the different workflows run by JOSS at GitHub.
-
-The actions are:
+This is a collection of small GitHub actions available to be combined and used as steps in the different workflows run by JOSS at GitHub.
 
 * **[Publishing artifacts](https://github.com/xuanxu/publishing-artifacts-action)**
 
