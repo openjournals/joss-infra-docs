@@ -22,11 +22,11 @@ The actions are:
 
 ```mermaid
 flowchart TD
-  PAPER(paper-action)
-  PREPRINT(preprint-action)
-  ARTIFACTS(publishing-artifacts-action)
+  PAPER(fa:fa-file-contract paper-action)
+  PREPRINT(fa:fa-file preprint-action)
+  ARTIFACTS(fa:fa-stream publishing-artifacts-action)
     
-  Inara[Inara]    
+  Inara[(Inara)]    
 
   ARTIFACTS --> |compiles files using| Inara
   PAPER --> |Makes pdf, jats, crossref-xml, preprint, cff files available using| ARTIFACTS
@@ -35,9 +35,9 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  UPLOAD(upload-files-action)
-  PR(deposit-pull-request-action)
-  UPDATE(update-files-action)
+  UPLOAD(fa:fa-code-branch upload-files-action)
+  PR(fa:fa-code-merge deposit-pull-request-action)
+  UPDATE(fa:fa-file-edit update-files-action)
    
   PapersRepo[JOSS Papers repository at GitHub]
 
@@ -48,20 +48,20 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  VALIDATE(validate-xml-files-action)
+  VALIDATE(fa:fa-file-check validate-xml-files-action)
    
-  xml-validator[The OJXV gem]
+  xml-validator[(The OJXV gem)]
 
   VALIDATE --> |Validates JATS/XML metadata files using| xml-validator
 ```
 
 ```mermaid
 flowchart TD
-  DEPOSIT-CROSSREF(deposit-with-crossref-action)
-  DEPOSIT-OJ(deposit-with-openjournals-action)
+  DEPOSIT-CROSSREF(fa:fa-cloud-upload deposit-with-crossref-action)
+  DEPOSIT-OJ(fa:fa-file-upload deposit-with-openjournals-action)
   
-  Openjournals[TheOJ gem]
-  Crossref[crossref.org]
+  Openjournals[(TheOJ gem)]
+  Crossref[(crossref.org API)]
     
   DEPOSIT-OJ --> |Deposit the paper to openjournals using| Openjournals
   DEPOSIT-CROSSREF --> |Deposit the crossref.xml file with| Crossref
@@ -69,18 +69,18 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  CITATION-INFO(citation-file-action)
+  CITATION-INFO(fa:fa-file-code citation-file-action)
    
-  Review[Review Issue at GitHub]
+  Review[fa:fa-github Review Issue at GitHub]
    
   CITATION-INFO --> |post the CITATION.cff file to| Review
 ```
 
 ```mermaid
 flowchart TD
-  ACCEPTANCE-TWEET(acceptance-tweet-action)
+  ACCEPTANCE-TWEET(fa:fa-bullhorn acceptance-tweet-action)
   
-  SocialMedia[Twitter/Mastodor APIs]
+  SocialMedia[(Twitter/Mastodor APIs)]
   
   ACCEPTANCE-TWEET --> |post to social media using| SocialMedia
 ```
