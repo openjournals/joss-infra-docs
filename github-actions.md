@@ -48,6 +48,8 @@ This is a collection of small GitHub actions available to be combined and used a
     This action creates a tweet and/or a toot announcing the acceptance of a paper.
 
 
+## Visually
+**File generation:**
 
 ```mermaid
 flowchart TD
@@ -62,6 +64,8 @@ flowchart TD
   PREPRINT --> |Makes preprint file available using| ARTIFACTS
 ```
 
+**Pushing to the papers repository:**
+
 ```mermaid
 flowchart TD
   UPLOAD(fa:fa-code-branch upload-files-action)
@@ -72,8 +76,10 @@ flowchart TD
 
   UPLOAD --> |New branch with metadata/image files| PapersRepo
   PR --> |Opens a pull request| PapersRepo
-  UPDATE --> |Updates existing paper metadata/image files| PapersRepo
+  UPDATE --> |Updates existing paper's metadata/image files| PapersRepo
 ```
+
+**Validation steps:**
 
 ```mermaid
 flowchart TD
@@ -83,6 +89,8 @@ flowchart TD
 
   VALIDATE --> |Validates JATS/XML metadata files using| xml-validator
 ```
+
+**Depositing a paper:**
 
 ```mermaid
 flowchart TD
@@ -95,6 +103,8 @@ flowchart TD
   DEPOSIT-OJ --> |Deposit the paper to openjournals using| Openjournals
   DEPOSIT-CROSSREF --> |Deposit the crossref.xml file with| Crossref
 ```
+
+**Post acceptance tasks:**
 
 ```mermaid
 flowchart TD
