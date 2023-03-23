@@ -72,7 +72,7 @@ flowchart TD
   PR(fa:fa-code-merge deposit-pull-request-action)
   UPDATE(fa:fa-file-edit update-files-action)
    
-  PapersRepo[fa:fa-github JOSS Papers repository]
+  PapersRepo{{fa:fa-github JOSS Papers repository}}
 
   UPLOAD --> |New branch with metadata/image files| PapersRepo
   PR --> |Opens a pull request| PapersRepo
@@ -110,7 +110,7 @@ flowchart TD
 flowchart TD
   CITATION-INFO(fa:fa-file-code citation-file-action)
    
-  Review[fa:fa-github Review Issue at GitHub]
+  Review{{fa:fa-github Review Issue}}
    
   CITATION-INFO --> |post the CITATION.cff file to| Review
 ```
