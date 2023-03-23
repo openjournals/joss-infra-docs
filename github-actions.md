@@ -1,6 +1,6 @@
 # GitHub Actions
 
-There is a collection of small GitHub actions used as steps by JOSS in the different workflows running at GitHub.
+There is a collection of small GitHub actions available to be used as steps in the different workflows run by JOSS at GitHub.
 
 The actions are:
 
