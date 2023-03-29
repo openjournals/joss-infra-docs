@@ -1,6 +1,6 @@
 # Overview
 
-[JOSS]()
+[JOSS](https://joss.readthedocs.io)
 
 [Editorialbot](https://buffy.readthedocs.io/)
 
