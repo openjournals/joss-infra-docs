@@ -20,6 +20,10 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
     This workflow is triggered by the `@editorialbot generate preprint` command.
 
+    * First it uses the [preprint action](./github-actions.md#preprint) to generate a LaTeX file suitable to send to preprint archives and saves it as an artefact with a 24h expiration date.
+
+    * Then it posts a comment to the original review issue with a link to the the page where the preprint file is located
+
 * **[Re-accept](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/reaccept.yml)**
 
     This workflow is triggered by the `@editorialbot reaccept` command.
