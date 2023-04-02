@@ -38,6 +38,6 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
     * And a pull request is open (using the [pull-request action](./github-actions.md#pull-request)) so the files can be easily inspected
 
-    * Then the metadata files are validated with the [Validate-metadata-files action](./github-actions.md#validate-metadata-files)
+    * Then the metadata files are validated with the [validate-metadata-files action](./github-actions.md#validate-metadata-files)
 
     * If no problems are found with the files, a comment is posted to the original review issue with links to view the files and the issue is labeled as `recommend-accept`, otherwise a link to any error found is posted in a comment in the review issue
