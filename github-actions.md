@@ -5,7 +5,7 @@ This is a collection of small GitHub actions available to be combined and used a
 ### **[Publishing artifacts](https://github.com/xuanxu/publishing-artifacts-action)**
 
   This action compiles a given paper.md markdown file and can generate PDF, JATS, Crossref XML, preprint and cff files.
-  Under the hood it uses the [openjournals/inara action](https://github.com/openjournals/inara) to generate the output files.
+  Under the hood it uses the [openjournals/inara Docker image](https://github.com/openjournals/inara) to generate the output files.
   
 ### **[Paper](https://github.com/xuanxu/paper-action)**
 
