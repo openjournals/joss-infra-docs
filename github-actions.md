@@ -68,11 +68,11 @@ flowchart TD
 
 ### **[Deposit with Open Journals](https://github.com/xuanxu/deposit-with-openjournals-action)**
 
-  This action deposit an accepted paper with Open Journals
+  This action deposits an accepted paper with Open Journals
 
 ### **[Deposit with Crossref](https://github.com/xuanxu/deposit-with-crossref-action)**
 
-  This action deposit an accepted paper with [Crossref](https://www.crossref.org/)
+  This action deposits an accepted paper with [Crossref](https://www.crossref.org/)
 
 ```mermaid
 flowchart TD
