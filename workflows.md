@@ -14,7 +14,7 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
   * If files are valid a pull request is created and merged (using the [pull-request action](./github-actions.md#pull-request)) in the papers repo
 
-  * The paper is deposited with Crossref (using the [deposit-with-crossref action](./github-actions.md#deposit-with-crossref)) and with JOSS (using the [deposit-with-openjournals action](./github-actions.md#deposit-with-openjournals))
+  * The paper is deposited with Crossref (using the [deposit-with-crossref action](./github-actions.md#deposit-with-crossref)) and with JOSS (using the [deposit-with-openjournals action](./github-actions.md#deposit-with-open-journals))
 
   * The [citation-file action](./github-actions.md#citation-file) creates a CITATION.cff file that is posted to the review issue
 
@@ -53,7 +53,7 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
   * If files are valid a pull request is created and merged (using the [pull-request action](./github-actions.md#pull-request)) in the papers repo
 
-  * The paper is deposited with Crossref (using the [deposit-with-crossref action](./github-actions.md#deposit-with-crossref)) and with JOSS (using the [deposit-with-openjournals action](./github-actions.md#deposit-with-openjournals))
+  * The paper is deposited with Crossref (using the [deposit-with-crossref action](./github-actions.md#deposit-with-crossref)) and with JOSS (using the [deposit-with-openjournals action](./github-actions.md#deposit-with-open-journals))
 
   * A comment is posted in the review issue linking to the updated paper files
 
