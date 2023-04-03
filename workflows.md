@@ -6,6 +6,23 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
   This workflow is triggered by the `@editorialbot accept` command.
 
+  * It uses the [paper action](./github-actions.md#paper) to compile the pdf and generate XML metadata files
+
+  * The files are uploaded to a branch in the papers repo using the [upload-files action](./github-actions.md#upload-files)
+
+  * Then the metadata files are validated with the [validate-metadata-files action](./github-actions.md#validate-metadata-files)
+
+  * If files are valid a pull request is created and merged (using the [pull-request action](./github-actions.md#pull-request)) in the papers repo
+
+  * The paper is deposited with Crossref (using the [deposit-with-crossref action](./github-actions.md#deposit-with-crossref)) and with JOSS (using the [deposit-with-openjournals action](./github-actions.md#deposit-with-openjournals))
+
+  * The [citation-file action](./github-actions.md#citation-file) creates a CITATION.cff file that is posted to the review issue
+
+  * The paper publication is announced in Twitter and Mastodon using the [social-media-posts action](./github-actions.md#acceptance-social-media-posts)
+
+  * A comment is posted in the review issue linking the papers and announcing the acceptance of the paper and the issue is labeled as `accepted` and `published`
+
+
 ### **[Compile pdf](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/draft-paper.yml)**
 
   This workflow is triggered by the `@editorialbot generate pdf` command.
@@ -27,6 +44,19 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 ### **[Re-accept](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/reaccept.yml)**
 
   This workflow is triggered by the `@editorialbot reaccept` command.
+
+  * It uses the [paper action](./github-actions.md#paper) to compile the pdf and generate XML metadata files
+
+  * The updated files are uploaded to a branch in the papers repo using the [update-files action](./github-actions.md#update-files)
+
+  * Then the metadata files are validated with the [validate-metadata-files action](./github-actions.md#validate-metadata-files)
+
+  * If files are valid a pull request is created and merged (using the [pull-request action](./github-actions.md#pull-request)) in the papers repo
+
+  * The paper is deposited with Crossref (using the [deposit-with-crossref action](./github-actions.md#deposit-with-crossref)) and with JOSS (using the [deposit-with-openjournals action](./github-actions.md#deposit-with-openjournals))
+
+  * A comment is posted in the review issue linking to the updated paper files
+
 
 ### **[Recommend acceptance](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/recommend-acceptance.yml)**
 
