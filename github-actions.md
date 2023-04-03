@@ -88,7 +88,7 @@ flowchart TD
 
 ### **[Citation file](https://github.com/xuanxu/citation-file-action)**
 
-  This action comments in the review issue with the contents of a CITATION.cff file.
+  This action posts a comment in the review issue with information on how to cite a paper and the contents of a CITATION.cff file.
   
 ```mermaid
 flowchart TD
