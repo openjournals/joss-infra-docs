@@ -40,6 +40,8 @@ flowchart TD
 
 Flow of a paper submission
 
+Troubleshooting common errors
+
 
 ## Components
 
