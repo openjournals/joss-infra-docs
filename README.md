@@ -6,6 +6,9 @@
 
 [Inara](https://github.com/openjournals/inara)
 
-[GitHub Actions](./github-actions.md)
+[GitHub Actions](./docs/github-actions.md)
 
-[GitHub Workflows](./workflows.md)
+[GitHub Workflows](./docs/workflows.md)
+
+[Ancillary Ruby gems](./docs/gems.md)
+
