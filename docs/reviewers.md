@@ -1,6 +1,6 @@
 # Reviewers Application
 
-Reviewers is a Ruby on Rails application to manage a database of a journal's reviewers. Users can volunteer to review by signin into the site and filling their profile information. Editors can search for reviewers and provide feedback on them.
+Reviewers is a Ruby on Rails application to manage a database of a journal's reviewers. Users can volunteer to review by signing into the site and filling their profile information. Editors can search for reviewers and provide feedback on them.
 
 The Reviewers instance used for JOSS is deployed in Heroku and configured for the JOSS editors team at GitHub. Its API is also used by the editorial bot to sync data for reviewers activity.
 
@@ -34,7 +34,7 @@ For the GitHub authentication to work, once the GitHub OAuth app is created, two
 - REVIEWERS_GH_CLIENT_SECRET
 
 
-To assign ORCID identifiers to users the app uses a ORCID OAuth application client_id and secret:
+To assign ORCID identifiers to users the app uses the ORCID OAuth application client_id and secret:
 
 - REVIEWERS_ORCID_CLIENT_ID
 - REVIEWERS_ORCID_CLIENT_SECRET
@@ -52,7 +52,3 @@ To recognize editors there is an `editors` Rake task (that is run hourly) define
 ### Settings file
 
 There is a YAML file located in `config\reviewers_settings.yml` where some options are defined
-
-
-
-
