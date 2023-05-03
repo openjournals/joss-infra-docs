@@ -15,7 +15,7 @@ flowchart TD
   EDITOR(Editor)
   REVS(Reviewers)
   REJECT([paper rejected])
-  WITHDRAW([paper withdrawed])
+  WITHDRAW([paper withdrawn])
   ACCEPT([paper accepted])
 
   classDef oj fill:#738af4,stroke:#031568,stroke-width:4px,color:#fff;
