@@ -2,7 +2,7 @@
 
 Reviewers is a Ruby on Rails application to manage a database of a journal's reviewers. Users can volunteer to review by signing into the site and filling their profile information. Editors can search for reviewers and provide feedback on them.
 
-The Reviewers instance used for JOSS is deployed in Heroku and configured for the JOSS editors team at GitHub. Its API is also used by the editorial bot to sync data for reviewers activity.
+The Reviewers instance used for JOSS is deployed in Heroku and configured for the JOSS editors team at GitHub. Its API is also used by the editorial bot to sync data for reviewers activity everytime someone is added as reviewer.
 
 ## URL
 
