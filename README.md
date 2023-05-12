@@ -45,7 +45,7 @@ flowchart TD
 ## Components
 
 
-- [JOSS](https://joss.readthedocs.io)
+- [JOSS](./docs/joss.md)
 - [Editorialbot](./docs/buffy.md)
 - [Inara](https://github.com/openjournals/inara)
 - [Reviewers application](./docs/reviewers.md)
