@@ -46,7 +46,7 @@ flowchart TD
 
 
 - [JOSS](https://joss.readthedocs.io)
-- [Editorialbot](https://buffy.readthedocs.io/)
+- [Editorialbot](./docs/buffy.md)
 - [Inara](https://github.com/openjournals/inara)
 - [Reviewers application](./docs/reviewers.md)
 - [GitHub Actions](./docs/github-actions.md)
