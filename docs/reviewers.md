@@ -50,9 +50,9 @@ To recognize editors there is an `editors` Rake task (that is run hourly) define
 
 To configure links to the journal owning the reviewers database there are three env variables available. These variables are optional as they can also be set in the settings file. If present the value in the ENV VAR will take precedence over the ones in the config file.
 
-- JOURNAL_NAME: Name of the journal
-- JOURNAL_ALIAS: Short name of the journal
-- JOURNAL_URL: UL of the journals' site
+- JOURNAL_NAME: The name of the journal
+- JOURNAL_ALIAS: The short name for the journal
+- JOURNAL_URL: The URL of the journals' site
 
 ### Settings file
 
