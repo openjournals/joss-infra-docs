@@ -48,7 +48,7 @@ To recognize editors there is an `editors` Rake task (that is run hourly) define
 - REVIEWERS_EDITOR_TEAM_ID: The id of the GitHub team with the list of editors
 - REVIEWERS_GH_TOKEN: The GitHub token to be able to use the GitHub API
 
-To configure links to the journal owning the reviewers database there are three env variables available. These variables are optional as they can also be set in the settings file. If present the value in the ENV VAR will take precedence over the ones in the config file.
+To configure links to the journal owning the reviewers database there are three env variables available. These variables are optional as values can also be set in the settings file. If present the value in the ENV VAR will take precedence over the one in the config file.
 
 - JOURNAL_NAME: The name of the journal
 - JOURNAL_ALIAS: The short name for the journal
