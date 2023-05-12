@@ -1,4 +1,4 @@
-# Buffy
+# Buffy :: Editorial bot
 
 Buffy is a service to provide a bot helping scientific journals manage submission reviews.
 
@@ -14,4 +14,4 @@ Buffy is deployed in Heroku and configured to act as the [@editorialbot GitHub u
 A complete guide on installation, configuration and available responders can be found here: https://buffy.readthedocs.io/en/joss/
 
 ## Configuration
-The current settings file for the JOSS deployment is a YAML file where all commands and responders used by JOSS and availbale in the JOSS reviews are defined and configured: https://github.com/openjournals/buffy/blob/joss/config/settings-production.yml
+The current settings file for the Buffy instance deployed for JOSS is a YAML file where all commands and responders used by JOSS and availbale in the JOSS reviews are defined and configured: https://github.com/openjournals/buffy/blob/joss/config/settings-production.yml
