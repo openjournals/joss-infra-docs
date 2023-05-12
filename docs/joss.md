@@ -11,4 +11,4 @@ The JOSS app is deployed in Heroku with postgresql and redis as storage options.
 
 ## Documentation
 
-The [JOSS docs site](https://joss.readthedocs.io/) includes a section about how to install and configure the JOSS application: https://joss.readthedocs.io/en/latest/installing.html
+The [JOSS docs site](https://joss.readthedocs.io/) includes a section about [how to install and configure the JOSS application](https://joss.readthedocs.io/en/latest/installing.html)
