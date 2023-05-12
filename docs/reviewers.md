@@ -48,7 +48,21 @@ To recognize editors there is an `editors` Rake task (that is run hourly) define
 - REVIEWERS_EDITOR_TEAM_ID: The id of the GitHub team with the list of editors
 - REVIEWERS_GH_TOKEN: The GitHub token to be able to use the GitHub API
 
+To configure links to the journal owning the reviewers database there are three env variables available. These variables are optional as they can also be set in the settings file. If present the value in the ENV VAR will take precedence over the ones in the config file.
+
+- JOURNAL_NAME: Name of the journal
+- JOURNAL_ALIAS: Short name of the journal
+- JOURNAL_URL: UL of the journals' site
 
 ### Settings file
 
-There is a YAML file located in `config\reviewers_settings.yml` where some options are defined
+There is a YAML file located in `config\reviewers_settings.yml` where some configuration options are defined:
+
+```yaml
+  all_reviews_url_template: "https://joss.theoj.org/papers/reviewed_by/{{github}}"
+  active_reviews_url_template: "https://github.com/openjournals/joss-reviews/issues?q=is:issue+is:open+label:review+mentions:{{github}}"
+  journal:
+    name: The Journal of Open Source Software
+    alias: JOSS
+    url: https://joss.theoj.org
+```
