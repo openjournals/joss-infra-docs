@@ -1,6 +1,6 @@
 # Buffy :: Editorial bot
 
-Buffy is a service to provide a bot helping scientific journals manage submission reviews.
+Buffy is a service providing a bot for helping scientific journals manage submission reviews.
 
 It is a Sinatra application that can be configured via a settings YAML file to define commands to listen to and actions to perform in order to automate common editorial tasks.
 
