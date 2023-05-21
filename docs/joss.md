@@ -7,7 +7,7 @@ The main JOSS site is a Rails application where the submissions are received, th
 The source code is available at https://github.com/openjournals/joss
 
 ## Deployment
-The JOSS app is deployed in Heroku with postgresql and redis as storage options.
+The JOSS app is deployed in Heroku with postgresql and redis as storage options. Live at https://joss.theoj.org
 
 ## Documentation
 
