@@ -8,7 +8,7 @@ It is a Sinatra application that can be configured via a settings YAML file to d
 The source code is available at https://github.com/openjournals/buffy and the configuration used for JOSS is in the `joss` branch.
 
 ## Deployment
-Buffy is deployed in Heroku and configured to act as the [@editorialbot GitHub user](https://github.com/editorialbot) in the JOSS reviews.
+Buffy is deployed in Heroku and configured to act as the [@editorialbot GitHub user](https://github.com/editorialbot) in the [JOSS reviews](https://github.com/openjournals/joss-reviews/issues).
 
 ## Documentation
 A complete guide on installation, configuration and available responders can be found here: https://buffy.readthedocs.io/en/joss/
