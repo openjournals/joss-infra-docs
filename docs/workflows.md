@@ -71,3 +71,34 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
   * Then the metadata files are validated with the [validate-metadata-files action](./github-actions.md#validate-metadata-files)
 
   * If no problems are found with the files, a comment is posted to the original review issue with links to view the files and the issue is labeled as `recommend-accept`, otherwise a link to any error found is posted in a comment in the review issue
+
+
+## Secrets
+
+For the workflows to work some values are added to the repo settings in the actions secrets section:
+
+```
+To allow the bot to interact with the JOSS reviews and JOSS site:
+
+BOT_TOKEN
+JOSS_SECRET
+
+For crossref depositing:
+
+CROSSREF_USERNAME
+CROSSREF_PASSWORD
+
+To post to mastodon:
+
+MASTODON_ACCESS_TOKEN
+MASTODON_INSTANCE_URL
+MASTODON_USER
+
+To post to Twitter:
+
+TWITTER_ACCESS_TOKEN
+TWITTER_ACCESS_TOKEN_SECRET
+TWITTER_CONSUMER_KEY
+TWITTER_CONSUMER_SECRET
+
+```
