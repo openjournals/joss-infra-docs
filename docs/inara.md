@@ -2,7 +2,7 @@
 
 Inara is a software package designed to create publishing artifacts for Open Journals submissions. It uses Pandoc and custom templates to generate PDF, HTML, JATS, and Crossref XML files.
 
-Inara is used in the JOSS reviews through a Docker image run by [a custom GitHub action](https://github.com/xuanxu/joss-infra-docs/blob/main/docs/github-actions.md#publishing-artifacts).
+Inara is used in the JOSS reviews through a Docker image run by [a custom GitHub action](./github-actions.md#publishing-artifacts).
 
 ## Source code
 
