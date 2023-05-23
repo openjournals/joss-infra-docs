@@ -9,4 +9,3 @@ Inara is used in the JOSS reviews through a Docker image run by [a custom GitHub
 The source code is available at https://github.com/openjournals/inara
 
 The different journals currently supported have a folder inside the [resources directoy](https://github.com/openjournals/inara/tree/main/resources).
-
