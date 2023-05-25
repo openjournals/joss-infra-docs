@@ -10,7 +10,7 @@ https://reviewers.joss.theoj.org
 
 ## Source code
 
-The source code can be found here: https://github.com/xuanxu/reviewers
+The source code can be found here: https://github.com/openjournals/reviewers
 
 ## Configuration
 
