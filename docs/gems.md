@@ -2,7 +2,7 @@
 
 This is a collection of simple Ruby gems developed to help in some specific step of the Open Journal's paper submission process.
 
-## TheOJ: The Open Journal gem
+## TheOJ: The Open Journals gem
 
 `theoj` is a library to manage editorial objects (journal/paper/review_issues/submission) during the review process. It is used by almost every workflow run by the editorial bot to interact with the JOSS website.
 
