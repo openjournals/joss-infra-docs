@@ -31,7 +31,7 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
   * Using the [upload-files action](./github-actions.md#upload-files) it pushes the paper.pdf file to a branch in the papers repo
 
-  * And finally posts a comment to the original review issue with links to view or download the pdf file
+  * And finally posts a comment to the original review issue with links to _view_ and _download_ the pdf file
 
 ### **[Preprint](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/preprint.yml)**
 
