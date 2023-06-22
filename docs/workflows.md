@@ -83,12 +83,12 @@ To allow the bot to interact with the JOSS reviews and JOSS site:
 BOT_TOKEN
 JOSS_SECRET
 
-For crossref depositing:
+For Crossref depositing:
 
 CROSSREF_USERNAME
 CROSSREF_PASSWORD
 
-To post to mastodon:
+To post to Mastodon:
 
 MASTODON_ACCESS_TOKEN
 MASTODON_INSTANCE_URL
