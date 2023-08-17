@@ -73,6 +73,17 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
   * If no problems are found with the files, a comment is posted to the original review issue with links to view the files and the issue is labeled as `recommend-accept`, otherwise a link to any error found is posted in a comment in the review issue
 
 
+### **[Retract paper](https://github.com/openjournals/joss-papers/actions/workflows/retract.yml)**
+
+  This workflow is meant to be triggered manually. It requires as input the review issue number of the paper to be retracted and the URL of the markdown file containing the retraction notice text. t can be run in draft or in final mode.
+
+  * It uses the [retraction action](./github-actions.md#retraction) to compile the pdf, generate XML metadata files and optionally accept the retracion notice.
+
+  * Draft mode will generate a zip with pdf, jats and crossref files for the retraction notice and save it as an artefact with a 24h expiration date.
+
+  * Final mode will also merge the files into the `joss-papers` repository and deposit the retraction with JOSS and with Crossref.
+
+
 ## Secrets
 
 For the workflows to work some values are added to the repo settings in the actions secrets section:

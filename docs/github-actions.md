@@ -112,3 +112,7 @@ flowchart TD
   
   ACCEPTANCE-TWEET --> |post to social media using| SocialMedia
 ```
+
+### **[Retraction](https://github.com/xuanxu/retraction-action)**
+
+  This action creates a retraction notice for a published paper. If run in `draft` mode, it will create an artifact (using the publishing artifacts action) with the compiled retraction notice files: PDF, JATS and Crossref outputs. If run in `final` mode it will also merge the files into the papers repository and deposit the retraction paper with Open Journals and Crossref.
