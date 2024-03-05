@@ -91,7 +91,7 @@ This workflow is triggered by the `@editorialbot check references` command, and 
 
   * It posts a comment to the original issue with a list of valid/invalid/missing DOIs
 
-### **[Retract paper](https://github.com/openjournals/joss-papers/actions/workflows/retract.yml)**
+### **[Retract paper](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/retract.yml)**
 
   This workflow is meant to be triggered manually. It requires as input the review issue number of the paper to be retracted and the URL of the markdown file containing the retraction notice text. It can be run in draft or in final mode.
 
