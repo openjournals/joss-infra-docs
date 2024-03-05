@@ -53,6 +53,10 @@ flowchart TD
   UPDATE --> |Updates existing paper's metadata/image files| PapersRepo
 ```
 
+### **[Check references](https://github.com/openjournals/gh-action-check-references)**
+
+  This action checks the validity of the bibliographic references of a paper submitted to Open Journals for review.
+
 ### **[Validate metadata files](https://github.com/xuanxu/validate-xml-files-action)**
 
   This action validates Open Journals' JATS and Crossref XML files. If an error happens it sends back a message to the review issue.
