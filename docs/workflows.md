@@ -81,6 +81,15 @@ This workflow is triggered by the `@editorialbot check repository` command, and 
 
   * If no problems are found with the files, a comment is posted to the original review issue with links to view the files and the issue is labeled as `recommend-accept`, otherwise a link to any error found is posted in a comment in the review issue
 
+### **[Check bibtex references ](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/references.yml)**
+
+This workflow is triggered by the `@editorialbot check references` command, and is also triggered automatically when a new `review` or `pre preview` issue is created.
+
+  * It uses the [check-references action](./github-actions.md#check-references) to check the validity of the DOIs listed in the `.bib`file containing the bibliographic references the a paper submitted for review.
+
+  * It posts an error comment if no `.bib` file is found
+
+  * It posts a comment to the original issue with a list of valid/invalid/missing DOIs
 
 ### **[Retract paper](https://github.com/openjournals/joss-papers/actions/workflows/retract.yml)**
 
