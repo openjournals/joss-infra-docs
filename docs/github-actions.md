@@ -57,6 +57,19 @@ flowchart TD
 
   This action checks the validity of the bibliographic references of a paper submitted to Open Journals for review.
 
+### **[Repository and paper checks](https://github.com/openjournals/gh-action-repo-checks)**
+
+  This action runs several checks on the software repository submitted for review to Open Journals:
+
+- **A repo information summary**: This check performs an analysis of the source code and post back to the issue a list of authors, contributions and file types information.
+- **Detect languages**: This will detect the languages used in the repository and label the issue with the top three used languages.
+- **Detect license**: This will look for an Open Source License in the target repo and post the result as a comment in the issue.
+
+The action also looks for a `paper.md` file in the specified repository and post back information on:
+
+- **Wordcount**: This will count the number of words in the paper file.
+- **Detect statement of need**: This check will look for an `Statement of need` section in the paper content.
+
 ### **[Validate metadata files](https://github.com/xuanxu/validate-xml-files-action)**
 
   This action validates Open Journals' JATS and Crossref XML files. If an error happens it sends back a message to the review issue.
