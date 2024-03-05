@@ -85,7 +85,7 @@ This workflow is triggered by the `@editorialbot check repository` command, and 
 
 This workflow is triggered by the `@editorialbot check references` command, and is also triggered automatically when a new `review` or `pre preview` issue is created.
 
-  * It uses the [check-references action](./github-actions.md#check-references) to check the validity of the DOIs listed in the `.bib`file containing the bibliographic references the a paper submitted for review.
+  * It uses the [check-references action](./github-actions.md#check-references) to check the validity of the DOIs listed in the `.bib`file containing the bibliographic references of a paper submitted for review.
 
   * It posts an error comment if no `.bib` file is found
 
