@@ -24,13 +24,13 @@ This is a list of workflows [configured](https://github.com/openjournals/joss-pa
 
 ### **[Repository and paper info](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/checks.yml)**
 
-This workflow is triggered by the `@editorialbot repository checks` command, and is also triggered automatically when a new `review` or `pre preview` issue is created.
+This workflow is triggered by the `@editorialbot check repository` command, and is also triggered automatically when a new `review` or `pre preview` issue is created.
 
-  * It uses the [repository-and-paper-checks action](./github-actions.md#repository-and-paper-checks) to run checks on the submitted software repository and paper file.
+  * It uses the [repository-and-paper-checks action](./github-actions.md#repository-and-paper-checks) to run checks on the submitted software repository and paper file
 
   * It labels the issue with the more used languages of the software repository
 
-  * Then post back comments with info on the software authors and file types, on the license of the submitted software and on the length of the paper file and the presence of a _Statement of need_ section in it.
+  * Then post back comments with info on the software authors and file types, on the license of the submitted software and on the length of the paper file and the presence of a _Statement of need_ section in it
 
 ### **[Compile pdf](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/draft-paper.yml)**
 
