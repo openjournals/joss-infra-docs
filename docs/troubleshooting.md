@@ -1,1 +1,2 @@
-
+- Common PDF compilation errors
+- Common XML validation errors
