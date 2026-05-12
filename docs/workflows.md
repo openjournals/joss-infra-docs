@@ -117,6 +117,11 @@ For Crossref depositing:
 CROSSREF_USERNAME
 CROSSREF_PASSWORD
 
+To post to Bluesky:
+
+BLUESKY_USERNAME
+BLUESKY_PASSWORD
+
 To post to Mastodon:
 
 MASTODON_ACCESS_TOKEN
