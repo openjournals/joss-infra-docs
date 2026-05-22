@@ -40,7 +40,9 @@ This workflow is triggered by the `@editorialbot check repository` command, and 
 
   * Using the [upload-files action](./github-actions.md#upload-files) it pushes the paper.pdf file to a branch in the papers repo
 
-  * And finally posts a comment to the original review issue with links to _view_ and _download_ the pdf file
+  * Posts a comment to the original review issue with links to _view_ and _download_ the pdf file
+  
+  * Optionally it also uses the [find-similar-papers action](./github-actions.md#find-similar-papers) to post information on related papers and suggest reviewers for the compiled paper 
 
 ### **[Preprint](https://github.com/openjournals/joss-papers/blob/master/.github/workflows/preprint.yml)**
 
