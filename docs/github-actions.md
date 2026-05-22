@@ -70,6 +70,11 @@ The action also looks for a `paper.md` file in the specified repository and post
 - **Wordcount**: This will count the number of words in the paper file.
 - **Detect statement of need**: This check will look for an `Statement of need` section in the paper content.
 
+### **[Find similar papers](https://github.com/openjournals/find-similar-papers)**
+
+  This action creates OpenAI embeddings for a submitted paper and finds similar papers using cosine similarity.
+
+
 ### **[Validate metadata files](https://github.com/xuanxu/validate-xml-files-action)**
 
   This action validates Open Journals' JATS and Crossref XML files. If an error happens it sends back a message to the review issue.
